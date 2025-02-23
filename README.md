@@ -4,23 +4,23 @@
 
 ### Backend
 
-1. Enter the backend directory
+1. Enter the backend directory \
    `cd backend`
-2. Create python virtual environment to keep dependencies separate from home system
+2. Create python virtual environment to keep dependencies separate from home system \
    `python -m venv venv`
 3. Activate the venv. This is different for different os
-4. Install dependencies
+4. Install dependencies \
    `pip install -r requirements.txt`
-5. Start server
+5. Start server \
    `python manage.py runserver`
 
 ### Frontend
 
-1. Enter the frontend directory
+1. Enter the frontend directory \
    `cd frontend`
-2. install npm packages
+2. install npm packages \
    `npm install`
-3. run the server
+3. run the server \
    `npm run dev`
 
 ## Todo:
