@@ -5,23 +5,49 @@
 ### Backend
 
 1. Enter the backend directory \
-   `cd backend`
+
+```
+cd backend
+```
+
 2. Create python virtual environment to keep dependencies separate from home system \
-   `python -m venv venv`
+
+```
+python -m venv venv
+```
+
 3. Activate the venv. This is different for different os
 4. Install dependencies \
-   `pip install -r requirements.txt`
+
+```
+pip install -r requirements.txt
+```
+
 5. Start server \
-   `python manage.py runserver`
+
+```
+python manage.py runserver
+```
 
 ### Frontend
 
 1. Enter the frontend directory \
-   `cd frontend`
+
+```
+cd frontend
+```
+
 2. install npm packages \
-   `npm install`
+
+```
+npm install
+```
+
 3. run the server \
-   `npm run dev`
+
+```
+npm run dev
+```
 
 ## Todo:
 
@@ -34,7 +60,3 @@
 7. [x] update the database attendance table
 8. [x] another api that will return the attendance status of each student for the current day
 9. [x] show the list in front end
-
-```
-
-```
