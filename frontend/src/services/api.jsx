@@ -65,3 +65,27 @@ export const updateAttendance = async (studentId, isPresent) => {
     throw error;
   }
 };
+
+// Fetch camera feed
+export const fetchCameraFeed = async (cameraId) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}/cameras/${cameraId}`);
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching camera feed:", error);
+    throw error;
+  }
+};
+
+// Fetch engagement analysis
+export const fetchEngagementAnalysis = async (cameraId) => {
+  try {
+    const response = await axios.get(
+      `${API_BASE_URL}/cameras/${cameraId}/analyze/`,
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching engagement analysis:", error);
+    throw error;
+  }
+};

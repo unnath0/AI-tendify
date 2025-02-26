@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # Your apps
     "apps.students",
+    "apps.cameras",
 ]
 
 MIDDLEWARE = [
